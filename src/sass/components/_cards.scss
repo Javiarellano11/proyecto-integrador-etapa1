@@ -17,6 +17,26 @@
         height: 100%;
     }
 
+    &:nth-child(1) {
+        background-image: linear-gradient(to top, #aaafad 0%, #60efff 100%);
+    }
+
+    &:nth-child(2) {
+        background-image: linear-gradient(to top, #ead9dd 0%, #e97586 100%);
+    }
+    
+    &:nth-child(3) {
+        background-image: linear-gradient(to top, #eb5647 0%, #6e81b7 100%);
+    }
+
+    &:nth-child(4) {
+        background-image: linear-gradient(to top, #404040 0%, #d14280 100%);
+    }
+
+    &:nth-child(5) {
+        background-image: linear-gradient(to top, #da7a1f 0%, #fe6978 100%);
+    }
+
     &__image-container {
         height: 200px;
         background-color: blue;
