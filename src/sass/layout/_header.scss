@@ -58,6 +58,18 @@
         background-color: gold;
     }
 
+    &__form-label {
+        background-color: green;
+    }
+
+    &__form-search {
+        background-color: deeppink;
+    }
+
+    &__form-submit {
+        background-color: darkslategray;
+    }
+
     &__carrito-container {
         flex: 0 0 3rem;
         background-color: goldenrod;
