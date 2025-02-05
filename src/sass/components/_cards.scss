@@ -6,6 +6,15 @@
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     overflow: hidden;
+    box-shadow: 0px 7px 8px 0px rgba(0 ,0 ,0 ,0.5);
+    transition: transform .40s;
+
+    &:hover,
+    &:focus {
+        transform: scale(1.03) skew(0.5deg) rotate(2deg);
+        transform-origin: bottom;
+        box-shadow: 0px 7px 8px 0px rgba(0 ,0 ,0 ,0.5);
+    }
 
     &__article {
         display: flex;
@@ -41,5 +50,34 @@
         height: 200px;
         background-color: blue;
         overflow: hidden;
+        clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+    }
+
+    &:hover &__image-container,
+    &:focus &__image-container {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    /* responsive -> 768px */
+
+    @media screen and (min-width: 768px) {
+        & {
+            width: 200px;
+            max-width: 300px;
+            height: 400px;
+        }
+
+        &__article {
+            flex-direction: column;
+        }
+
+        & &__image-container {
+            clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+        }
+
+        &:hover &__image-container,
+        &:focus &__image-container {
+            clip-path: polygon(0 0, 100% 0, 100% 200px, 0 200px);
+        }
     }
 }
