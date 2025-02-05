@@ -27,7 +27,7 @@
     }
 
     &:nth-child(1) {
-        background-image: linear-gradient(to top, #aaafad 0%, #60efff 100%);
+        background-image: linear-gradient(to top, #236ab6 0%, #c9e5f9 100%);
     }
 
     &:nth-child(2) {
@@ -35,7 +35,7 @@
     }
     
     &:nth-child(3) {
-        background-image: linear-gradient(to top, #eb5647 0%, #6e81b7 100%);
+        background-image: linear-gradient(to top,  #7184bc 0%, #d75e55 40%, #ced0d4 80%);
     }
 
     &:nth-child(4) {
@@ -80,4 +80,14 @@
             clip-path: polygon(0 0, 100% 0, 100% 200px, 0 200px);
         }
     }
+
+    &__price {
+        display: flex;
+        justify-content: right;
+        font-size: 1.2rem;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    
 }
