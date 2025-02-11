@@ -1,13 +1,16 @@
 .card {
-    min-width: 400px;
-    max-width: 500px;
+    min-width: 450px;
+    max-width: 450px;
     height: 200px;
     background-color: orange;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
     overflow: hidden;
     box-shadow: 0px 7px 8px 0px rgba(0 ,0 ,0 ,0.5);
-    transition: transform .40s;
+    transition: transform .30s;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    
 
     &:hover,
     &:focus {
@@ -24,31 +27,34 @@
         object-fit: cover;
         width: 100%;
         height: 100%;
+        cursor: pointer;
+        border: 2px solid black;
+        border-radius: 25px;
     }
 
     &:nth-child(1) {
-        background-image: linear-gradient(to top, #236ab6 0%, #c9e5f9 100%);
+        background-image: linear-gradient(to top, #ffffff 0%, #d7d7d7 100%);
     }
 
     &:nth-child(2) {
-        background-image: linear-gradient(to top, #ead9dd 0%, #e97586 100%);
+        background-image: linear-gradient(to top, #ffffff 0%, #d7d7d7 100%);
     }
     
     &:nth-child(3) {
-        background-image: linear-gradient(to top,  #7184bc 0%, #d75e55 40%, #ced0d4 80%);
+        background-image: linear-gradient(to top, #ffffff 0%, #d7d7d7 100%);
     }
 
     &:nth-child(4) {
-        background-image: linear-gradient(to top, #404040 0%, #d14280 100%);
+        background-image: linear-gradient(to top, #ffffff 0%, #d7d7d7 100%);
     }
 
     &:nth-child(5) {
-        background-image: linear-gradient(to top, #da7a1f 0%, #fe6978 100%);
+        background-image: linear-gradient(to top, #ffffff 0%, #d7d7d7 100%);
     }
 
     &__image-container {
         height: 200px;
-        background-color: blue;
+        background-color: transparent;
         overflow: hidden;
         clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
     }
@@ -89,5 +95,42 @@
         margin-right: 20px;
     }
 
+    &__heading {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 18px;
+    }
+
+    &__button {
+        cursor: pointer;
+        width: 300px;
+        height: 30px;
+        margin-left: 15%;
+        margin-top: 4%;
+        background-color: #33c3f0;
+        border: none;
+        color: #ffffff;
+        text-transform:uppercase;
+        font-size: 1rem;
+        border-radius: 10px;
+        box-shadow: 0px 3px 4px 0px rgba(0 ,0 ,0 ,0.5)
+    }
+
+    &:hover &__button,
+    &:focus &__button {
+        background-color: #2da0c3;
+    }
     
+}
+
+
+p {
+    text-align: center;
+    margin-top: 25px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
 }
