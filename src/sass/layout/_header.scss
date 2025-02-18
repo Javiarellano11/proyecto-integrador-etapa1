@@ -30,7 +30,7 @@
 /* ------------------------------------- */
 
 .nav-bar {
-    background-color: mediumaquamarine;
+    background-color: #1a1a1a;
     display: none;
     
     &__nav-list {
@@ -48,12 +48,11 @@
 
     &__nav-item {
         text-align: center;
-        background-color: pink;
     }
 
     &__nav-link {
         display: block;
-        background-color: purple;
+        background-color: #1a1a1a;
         padding: 1rem 2rem;
         color: white;
     }
@@ -71,7 +70,7 @@
 
 .search-bar {
     display: flex;
-    background-color: olivedrab;
+    background-color: #ffed00;
     justify-content: space-around;
 
     &__logo-container {
@@ -81,27 +80,34 @@
 
     &__form-container {
         padding: 1rem;
-        background-color: gold;
+        background-color: #ffed00;
         display: flex;
         flex-basis: 100%;
         justify-content: center;
     }
 
     &__form-label {
-        background-color: green;
+        display: none;
     }
 
     &__form-search {
-        background-color: deeppink;
+        background-color: white;
+        padding: 10px 100px;
+        border-radius: 20px;
+        margin-right: 5px;
     }
 
     &__form-submit {
-        background-color: darkslategray;
+        background-color: #1a1a1a;
+        color: white;
+        border-radius: 20px;
+        padding: 10px;
+        cursor: pointer;
     }
 
     &__carrito-container {
         flex: 0 0 3rem;
-        background-color: goldenrod;
+        background-color: #ffed00;
     }
 }
 
