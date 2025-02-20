@@ -1,6 +1,9 @@
-footer {
+.footer {
+    display: flex;
+    /* flex-direction: column; */
     background-color: #333233;
     color: white;
+    justify-content: center;
 }
 
 
@@ -8,6 +11,9 @@ footer {
     padding: 1rem;
     margin-top: 5px;
     margin-bottom: 0px;
+    /* display: flex; */
+    align-self: end;
+    
     
     &__payments {
         display: flex;
@@ -18,8 +24,9 @@ footer {
         
     }
 
-    &__parrafo {
+    &__p {
         display: flex;
+        font-size: 12px;
     }
     
 }
