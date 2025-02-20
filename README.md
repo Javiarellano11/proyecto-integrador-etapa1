@@ -1,12 +1,11 @@
-# Empezando con el proyecto vite para el integrador
+# JAVIER ALEJANDRO ARELLANO
+
+## LINK GITHUB 
+
 ``` sh
-npm create vite@latest ./ -- --template vanilla
+https://github.com/Javiarellano11/proyecto-integrador-etapa1.git
 ```
 
-## instalamos dependencias <!-- npm i -->
+## LINK NETLIFY
 
-## arrancamos el servidor de desarollo <!-- npm run dev -->
-
-## instalando el preprocesador de SASS <!-- npm i sass-embedded -D -->
-
-## Agrego el archivo 'vite config.js'
+``` sh
