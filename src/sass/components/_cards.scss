@@ -107,7 +107,7 @@
         height: 30px;
         margin-left: 15%;
         margin-top: 4%;
-        background-color: #33c3f0;
+        background-color: #333;
         border: none;
         color: #ffffff;
         text-transform:uppercase;
@@ -118,7 +118,8 @@
 
     &:hover &__button,
     &:focus &__button {
-        background-color: #2da0c3;
+        background-color: #ffed00;
+        color: black;
     }
     
 }

@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/185624c90b.js" crossorigin="anonymous"></script>
+    <title>Proyecto Integrador - Contacto</title>
+</head>
+<body>
+    <header class="main-header">
+        <input type="checkbox" id="menu">
+
+      <nav class="nav-bar">
+        <ul class="nav-bar__nav-list">
+          <li class="nav-bar__nav-item">
+            <a href="../../../index.html" class="nav-bar__nav-link">Inicio</a>
+          </li>
+          <li class="nav-bar__nav-item">
+            <a href="" class="nav-bar__nav-link">Alta</a>
+          </li>
+          <li class="nav-bar__nav-item">
+            <a href="./src/pages/nosotros/nosotros.html" class="nav-bar__nav-link">Nosotros</a>
+          </li>
+          <li class="nav-bar__nav-item">
+            <a href="./src/pages/contacto/contacto.html" class="nav-bar__nav-link">Contacto</a>
+          </li>
+        </ul>
+      </nav> <!-- .nav-bar -->
+      
+      <div class="search-bar">
+        <div class="search-bar__logo-container">
+          <img src="/imgs/logo.png" alt="">
+        </div>
+        <form action="#" class="search-bar__form-container">
+          <label for="busqueda" class="search-bar__form-label">Buscar</label>
+          <input type="search" id="busqueda" class="search-bar__form-search">
+          <button type="submit" class="search-bar__form-submit">Buscar</button>
+        </form>
+        <div class="search-bar__carrito-container">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>   
+
+        <div class="menu-toogle">
+          <label for="menu" class="menu-toogle__label">
+            <span class="menu-toogle__top-bread"></span>
+            <span class="menu-toogle__meat"></span>
+            <span class="menu-toogle__bottom-bread"></span>
+          </label>
+        </div> <!-- .menu-toogle -->
+
+      </div> <!-- .search-bar -->        
+    </header>
+
+<!-- comienzo de formulario -->
+    <main class="main-form">
+
+        <fieldset class="main-form__fieldset">
+
+            <h1>Información Personal</h1>
+            <hr>
+            <p>Te contactaremos luego de enviar el formulario con tus datos</p>
+
+            <Form class="main-form__form-inicial" action="#">
+
+                <div class="main-form__name">
+                    <label for="Nombre">Nombre</label>
+                    <input class="main-form__input" type="text" id="Nombre" placeholder="Nombre" required>
+                </div>
+
+                <div class="main-form__last-name">
+                    <label for="Apellido">Apellido</label>
+                    <input class="main-form__input" type="text" id="Apellido" placeholder="Apellido" required>
+                </div>
+
+                <div class="main-form__email">
+                    <label for="email">Mail</label>
+                    <input class="main-form__input" type="email" id="email" placeholder="Correo Electronico" required>
+                </div>
+
+                <div class="main-form__phone">
+                    <label for="numero">Telefono</label>
+                    <input class="main-form__input" type="number" id="numero" placeholder="Numero de Telefono" required>
+                </div>
+
+                <div class="main-form__description">
+                    <label for="descripcion">Descripción</label>
+                    <textarea name="descripcion" id="descripcion" placeholder="Escribí un mensaje(opcional)"></textarea>
+                </div>
+
+                <div class="main-form__send">
+                    <label for="send"></label>
+                    <button class="main-form__button-send" id="send" type="submit">Enviar</button>
+                </div>
+            </Form>
+        </fieldset>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21211.696284327627!2d-57.549676674753094!3d-37.999475500372164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dc236f80b29d%3A0x38c968d4d3626b6f!2sPaseo%20Aldrey%20Shopping!5e0!3m2!1ses!2sar!4v1740010217051!5m2!1ses!2sar" width="700" height="800" style="border-radius:15px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="footer-content">
+
+          <div class="footer-content__copyright">
+            <p class="footer-content__parrafo">© 2025 Mega Sports. Todos los derechos reservados.</p>
+          </div>
+
+          <div class="footer__social-networks">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+          </div>
+
+          <div>
+
+            <div class="footer-content__payments">
+              <img src="/imgs/visa-logo.jpg" alt="" class="footer-content__payments">
+              <img src="/imgs/Mastercard-logo.png" alt="" class="footer-content__payments">
+              <img src="/imgs/american-express-card.png" alt="" class="footer-content__payments">
+              <img src="/imgs/banelco-logo.png" alt="" class="footer-content__payments">
+              <img src="/imgs/Red-link-logo.png" alt="" class="footer-content__payments">
+            </div>
+
+          </div>
+
+        </div>
+       
+      </footer> <!-- .footer -->
+
+
+
+    <script type="module" src="/src/pages/contacto/contacto.js"></script>
+</body>
+</html>

@@ -20,10 +20,10 @@
             <a href="" class="nav-bar__nav-link">Alta</a>
           </li>
           <li class="nav-bar__nav-item">
-            <a href="" class="nav-bar__nav-link">Nosotros</a>
+            <a href="./src/pages/nosotros/nosotros.html" class="nav-bar__nav-link">Nosotros</a>
           </li>
           <li class="nav-bar__nav-item">
-            <a href="" class="nav-bar__nav-link">Contacto</a>
+            <a href="./src/pages/contacto/contacto.html" class="nav-bar__nav-link">Contacto</a>
           </li>
         </ul>
       </nav> <!-- .nav-bar -->
@@ -37,7 +37,9 @@
           <input type="search" id="busqueda" class="search-bar__form-search">
           <button type="submit" class="search-bar__form-submit">Buscar</button>
         </form>
-        <div class="search-bar__carrito-container">C</div>   
+        <div class="search-bar__carrito-container">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>   
 
         <div class="menu-toogle">
           <label for="menu" class="menu-toogle__label">
@@ -56,6 +58,7 @@
         <section class="section-cards">
           <header class="section-cards__header">
             <h1>Productos destacados</h1>
+            <hr>
             <p>Se encontraron 5 productos destacados</p>
           </header>
         </section>
@@ -63,17 +66,33 @@
         <section class="cards-container" id="container-productos"></section>
 
 
-        <footer class="footer">
-          <p class="footer-copyright">© 2025 Mega Sports. Todos los derechos reservados.</p>
-          <div class="footer__payments-logo">
-            <img src="imgs/visa-logo.jpg" alt="">
-            <img src="imgs/Mastercard-logo.png" alt="">
-            <img src="imgs/logo-american-express.png" alt="">
-            <img src="imgs/banelco-logo.png" alt="">
-            <img src="imgs/Red-link-logo.svg.png" alt="">
-          
+        <footer>
+          <div class="footer-content">
+
+            <div class="footer-content__copyright">
+              <p class="footer-content__parrafo">© 2025 Mega Sports. Todos los derechos reservados.</p>
+            </div>
+
+            <div class="footer__social-networks">
+              <img src="" alt="">
+              <img src="" alt="">
+              <img src="" alt="">
+            </div>
+
+            <div>
+
+              <div class="footer-content__payments">
+                <img src="imgs/visa-logo.jpg" alt="" class="footer-content__payments">
+                <img src="imgs/Mastercard-logo.png" alt="" class="footer-content__payments">
+                <img src="imgs/american-express-card.png" alt="" class="footer-content__payments">
+                <img src="imgs/banelco-logo.png" alt="" class="footer-content__payments">
+                <img src="imgs/Red-link-logo.png" alt="" class="footer-content__payments">
+              </div>
+
+            </div>
 
           </div>
+         
         </footer> <!-- .footer -->
 
       </main>     
